@@ -1,0 +1,11 @@
+<slot name="parrafo"></slot>
+
+
+<nav>
+  <ul><a [routerLink]="['/pagina1/1']" >Página1</a></ul>
+  <ul><a [routerLink]="['/pagina2']">Página2</a></ul>
+  <ul><a routerLink="/pagina3" [queryParams]="{name:'pedro', page:1, size:25}">Página3</a></ul>
+</nav>
+
+<slot></slot>
+
